@@ -1,0 +1,116 @@
+
+\documentclass[11pt,a4paper,sans]{moderncv}        
+
+\moderncvstyle{banking}                        
+\moderncvcolor{blue}                           
+
+\nopagenumbers{}                               
+
+
+\usepackage[utf8]{inputenc}    
+\usepackage{pdfpages}%
+\usepackage{multicol}
+\usepackage[scale=0.9,top=0.5cm, bottom=0.1cm]{geometry}
+\usepackage{xpatch}
+
+
+\xpatchcmd\cventry{,}{}{}{}
+
+\name{Gregory}{Postnikov}                               
+
+\vspace*{3mm}
+\phone[mobile]{+7~(905)~533~8135}                     
+\email{postnikov.gyu@phystech.edu}               
+\social[github]{Gregory06}   
+                 
+
+
+\begin{document}
+
+\vspace*{-1.05mm}
+\makecvtitle
+\vspace*{-10mm}
+
+\section{EDUCATION}
+\cventry{Moscow, Russia}{}{Moscow Institute of Physics and Technology}{Sep 2017 - Jun 2021}{\hspace*{-2.5 mm} Bachelor's of Science in Applied Math and  Computer Science, 4.6 / 5.0 GPA }{}
+
+{}{Related Coursework:}
+\vspace{-1.0em}\begin{small}
+ \begin{multicols}{3}
+    \begin{itemize}
+\item Algorithms and Computational Models
+\item Operation Systems
+\item Compilers Theory
+\item Formal Systems Theory
+\item Computer's Architecture
+\item Graph Theory
+\item Python Language
+\item Deep Learning in NLP problems
+\item Deep Learning in CV problems
+
+
+    \end{itemize}
+    \end{multicols}\end{small}    
+
+
+\section{WORK EXPERIENCE }
+
+\cventry{Moscow, Russia}{}{ABBYY, Inc.}{Feb 2019 - Aug 2019}{\hspace*{-2.5 mm}  Software Engineer Intern}{
+\begin{itemize}
+\item Built a system for evaluating the quality of invoice parsing algorithms using Python.\\
+ At least 5 of my colleagues have used this system.
+\item Developed invoice's specific part parsing algorithms using Python that outperform existing solutions. \\
+My team used these approaches in future work.
+\item Implemented a new module for clustering invoices using C ++. \\
+This module has been added to the production version of ABBYY FlexyCapture.
+\end{itemize}}
+
+\cventry{Moscow, Russia}{}{Chef Market, Inc.}{Jun 2018 - Jul 2018 }{\hspace*{-2.5 mm} Analyst Intern}{
+\begin{itemize}
+\item Created a marketing data processing system using NoSQL,\\ which helped automate the work of at least 4 people.
+\item Built a set of almost 20 dashboards using \href{https://www.periscopedata.com/}{\textit{periscopedata.com}} for data visualisation.
+\item Saved more than 1.000 \$ by  marketing optimisation. 
+\end{itemize}}
+
+\section{PROJECTS}
+
+\cventry{}{}{\href{https://github.com/Gregory06/school_timetable_generator}{School Timetable Generator}, C++}{May 2019 }{\hspace*{-2.5 mm} The final of the Programming course }{
+\begin{itemize}
+\item Developed an algorithm for generating random timetable using backtracking, implemented using STL.
+\item Built a module that finds an approximation of the best timetable using the ABC algorithm.
+\end{itemize}}
+% \vspace{1.0em}
+
+\cventry{}{}{\href{https://github.com/Gregory06/MyLittleSell}{Unix Shell Emulator}, C}{Dec 2018 }{\hspace*{-2.5 mm}  The final of the Operation Systems course}{
+\begin{itemize}
+\item Developed a parsing module for dividing strings into commands.
+\item Implemented a kernel capable of executing most of the real basic Shell commands.
+\end{itemize}}
+
+\cventry{}{}{\href{https://github.com/Gregory06/Language}{Programming Language Compiler}, C}{May 2018 }{\hspace*{-2.5 mm} The final of the Compilers Theory course }{
+\begin{itemize}
+\item Developed its own "Assembly" language for running simple programs. 
+\item Created a translator from the language syntax to "Assembly" using grammars and regular expressions.
+\end{itemize}}
+
+\section{SKILLS}
+
+\begin{itemize}
+\item \textbf{Programming:} C, C++, Python, SQL \vspace{0.5em}
+\item \textbf{Frameworks:} STL, NumPy, Pandas, PyTorch, TensorFlow \vspace{0.5em}
+\item \textbf{Tools:} GIT, SVN \vspace{0.5em}
+\item \textbf{Languages:} Russian (native), English (B2-C1) 
+\end{itemize}
+
+
+\section{EXTRA INFORMATION}
+\cventry{}{}{Scientific interests}{}{\hspace*{-2.5 mm} Algorithms efficiency, Discrete Math, Optimisation methods, Neural Networks}{
+ }
+\cventry{}{}{PhysTech Rugby Team Member}{}{\hspace*{-2.5 mm} The Moscow 2d division 2018 winners and the Moscow 1st division 2019 participants.}{}
+\vspace{0.5em}
+
+\vspace{0.5em}
+
+% \vspace{1.0em}
+
+\end{document}
